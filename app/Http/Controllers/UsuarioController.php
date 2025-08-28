@@ -46,6 +46,9 @@ class UsuarioController extends Controller
         return $response->json(); 
     }
 
+    public function login(){
+        return view('login');
+    }
 
     public function index()
     { 
